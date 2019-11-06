@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Unit Price Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_enter_price">Enter Price</string>
+    <string name="price_text">Price ($)</string>    
+    <string name="hint_enter_weight">Enter Weight</string>
+    <string name="weitgh_text">Weight (kg)</string>
+
+    <string name="cost_kilo_text">Cost/Kilo</string>
+    <string name="cost_100_text">Cost/100g</string>
+    <string name="line1">1kg = 1000g, 100g = 0.100kg</string>
+    <string name="line2">10g = 0.01kg, 1g = 0.001kg</string>
+    <string name="line3">1L = 1000ml, 100ml = 0.100L</string>
+    
+</resources>

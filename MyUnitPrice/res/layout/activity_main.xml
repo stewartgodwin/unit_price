@@ -1,0 +1,135 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#FDEBFF"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.smg.myunitprice.MainActivity"
+    tools:ignore="LabelFor" >
+
+    <TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_enter_price"
+            android:text="@string/price_text"
+            android:textSize="@dimen/font_size" />
+
+        <EditText
+            android:id="@+id/editTextEnterPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/et_height"
+            android:ems="8"
+            android:inputType="numberDecimal" >
+
+            <requestFocus />
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/textViewWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_enter_weight"
+            android:text="@string/weitgh_text"
+            android:textSize="@dimen/font_size" />
+
+        <EditText
+            android:id="@+id/editTextEnterWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/et_height"
+            android:ems="8"
+            android:inputType="numberDecimal" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/textViewCostPerKilo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cost_kilo_text"
+            android:textSize="@dimen/font_size" />
+
+        <EditText
+            android:id="@+id/editTextCostPerKilo"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/et_height"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:ems="8"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="none"
+            android:longClickable="false" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/textViewCostPer100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cost_100_text"
+            android:textSize="@dimen/font_size" />
+
+        <EditText
+            android:id="@+id/editTextCostPer100"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/et_height"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:ems="8"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="none"
+            android:longClickable="false" />
+
+    </TableRow>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/line_padding"
+        android:text="@string/line1"
+        android:textSize="@dimen/font_size_sml" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/line_padding"
+        android:text="@string/line2"
+        android:textSize="@dimen/font_size_sml" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/line_padding"
+        android:text="@string/line3"
+        android:textSize="@dimen/font_size_sml" />
+
+</TableLayout>
